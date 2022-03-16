@@ -10513,16 +10513,37 @@ textarea.form-control-lg {
   }
 }
 .icon-link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
   text-decoration: none;
   background-color: #495057;
-  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   color: #fff;
 }
 .icon-link:hover {
   background-color: #bd5d38;
   color: #fff;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+  }
+  .navbar .img-circle {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #ffffff33;
+    border-radius: 50%;
+    padding: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
