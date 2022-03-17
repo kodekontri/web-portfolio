@@ -4,7 +4,7 @@ $theme-colors: (
     "secondary":#495057
 );
 
-@import "../vendor/bootstrap-5.1.3/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 .icon-link{
     display: flex;
